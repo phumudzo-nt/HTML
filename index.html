@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCodes</title>
+    <meta charset="UTF-8" />
+
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <img src="images/logo.png" alt="SheCOdes" class="logo" />
+    <h1>HTML Input Types</h1>
+
+    <h3>Challenge 1</h3>
+    <p>
+      Create a search input with a label "What's on your mind?"
+      <label for="mind">What's on your mind?</label>
+      <input type="search" name="mind" id="mind" />
+    </p>
+
+    <h3>Challenge 2</h3>
+    <p>
+      Create a form with a date input asking "What is your birth date?", a
+      submit button "Submit" and the form should send the date to /submit
+    </p>
+    <form action="/submit">
+      <label for="birth">What is your birth date?</label>
+      <input type="date" name="birth" id="birth" />
+      <input type="submit" value="submit" />
+
+    <h3>Challenge 3</h3>
+    <p>
+      Create radio inputs asking "What is your favorite primary color?" with
+      blue, yellow and red as options
+    </p>
+    <div>
+      <input type="radio" name="first-color" id="blue" value="blue" />
+      <label for="blue">Blue</label>
+    </div>
+    <div>
+      <input type="radio" name="first-color" id="yello" value="yello" />
+      <label for="yello">Yello</label>
+    </div>
+    <di>
+      <input type="radio" name="first-color" id="red" value="red" />
+      <label for="red">Red</label>
+    </div>
+
+
+    <h3>Challenge 4</h3>
+    <p>
+      Create checkbox inputs asking "How do you like to travel?" with plane,
+      bus, train, car, walking as options
+    </p>
+    <div>
+      <input type="checkbox" name="transport" id="plane" value="plane" />
+      <label for="plane">Plane</label>
+    </div>
+    <div>
+      <input type="checkbox" name="transport" id="bus" value="bus" />
+      <label for="Bus">Plane</label>
+    </div>
+    <div>
+      <input type="checkbox" name="transport" id="car" value="car" />
+      <label for="Car">Plane</label>
+    </div>
+
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
